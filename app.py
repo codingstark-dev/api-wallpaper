@@ -50,8 +50,8 @@ def redditdatas():
 # print(len(listfile))
 @app.route('/', methods=['GET'])
 def home():
-    redditdatas()
-    return jsonify(listfile)
+    
+    return "working"
 
 
 app.run()

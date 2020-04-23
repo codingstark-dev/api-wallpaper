@@ -44,7 +44,7 @@ def redditdatas():
                 #     with open(filename+'.jpeg', 'wb') as f:
                 #         f.write(r.content)
 
-
+app = flask.Flask(__name__)
 # redditdatas()
 # print(len(listfile))
 @app.route('/', methods=['GET'])
@@ -53,6 +53,6 @@ def home():
     return "workingx"
 
 
-app = flask.Flask(__name__)
+
 
 app.run()

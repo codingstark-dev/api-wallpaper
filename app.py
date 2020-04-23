@@ -32,6 +32,7 @@ def redditdatas():
                 })
                 time.sleep(1)
 
+
                 # r = requests.get(url)
                 # if r.status_code == 200:
                 # if url.endswith(".png"):
